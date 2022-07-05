@@ -7,3 +7,7 @@ students = {
 
 print(students["Ron"])
 print(students["Draco"])
+
+for student in students:
+    print(student, students[student], sep=", ")
+
