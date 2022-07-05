@@ -12,3 +12,11 @@ for i in range(3):
     print("RHEMNEY")
 
 print("BOSTONE\n" * 3, end="")
+
+while True:
+    n = int(input("Whats n? "))
+    if n > 0:
+        break
+
+for _ in range(n):
+    print("CS50")
