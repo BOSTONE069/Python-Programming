@@ -7,7 +7,7 @@ second_number = int(second_number)
 
 # This is conditional statement for testing the operators
 if operator == "+":
-    print("{} + {} = {}".format(first_number, second_number, first_number + second_number))
+    print(f"{first_number} + {second_number} = {first_number+second_number}")
 elif operator == "-":
     print("{} - {} = {}".format(first_number, second_number, first_number - second_number))
 elif operator == "*":
