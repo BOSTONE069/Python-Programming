@@ -11,7 +11,10 @@ radius = int(radius)
 area_of_circle = PI * radius * radius
 
 # This is to round the number to three decimal place
-area_of_circle = round(area_of_circle, 3)
+area_of_circle = round(area_of_circle, 5)
 
 #This is for printing the output
 print(f"The area of a circle is {area_of_circle}")
+
+#This is for printing the output in two decimal places
+print(f"The are of the circle is {area_of_circle:.2f}")
