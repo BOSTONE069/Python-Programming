@@ -7,4 +7,4 @@ while i != 0:
 j = 1
 while j <= 3:
     print("OCHIENG")
-    j = j + 1
+    j += 1
