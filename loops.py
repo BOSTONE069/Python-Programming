@@ -8,5 +8,7 @@ while j <= 3:
     print("OCHIENG")
     j += 1
 
-for i in [0, 1, 2]:
+for i in range(3):
     print("RHEMNEY")
+
+print("BOSTONE\n" * 3, end="")
