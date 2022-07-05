@@ -11,3 +11,6 @@ print(f"Welcome to CS50 {name}")
 print("hello,", end="")
 print(name)
 print("\"Hello\"")
+
+name2 = input("What is your second name: ").strip().title()
+print(f"Your second name: {name2}")
