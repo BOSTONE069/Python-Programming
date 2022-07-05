@@ -6,6 +6,7 @@ def main():
         print("This is an ODD number")
 
 
+# This is using a boolean expression in the functions
 def is_even(n):
     if n % 2 == 0:
         return True
