@@ -1,4 +1,5 @@
 from functools import reduce
+import  random
 
 
 def fahrenheit(T):
@@ -26,8 +27,29 @@ k = list(map(lambda x, y, z: x + y + z, a, b, c))
 print(k)
 
 # Calculating the sum of the numbers from 1 to 100:
-
-
 addition = reduce(lambda x, y: x + y, range(1, 101))
 
 print(addition)
+
+# finding the sum of number
+number = lambda x, y: x + y
+
+print("Sum :", number(4, 6))
+
+# Determine whether a person can vote and returns true or false
+can_vote = lambda age: True if age >= 18 else False
+
+print("Can vote :", can_vote(20))
+
+attack = {
+    'quick': (lambda: print("Quick Attack")),
+    'power': (lambda: print("Power Attack")),
+    'missed': (lambda: print("Missed Attack"))
+
+}
+
+attack['quick']()
+
+attackKey = random.choice(list(attack.keys()))
+
+attack[attackKey]()
