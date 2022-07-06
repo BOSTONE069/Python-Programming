@@ -1,10 +1,10 @@
-#This is for requesting the user input
+# This is for requesting the user input
 tree_height = input("How tall is the tree: ")
 
-#This is for converting the tree height to integer
+# This is for converting the tree height to integer
 tree_height = int(tree_height)
 
-#This of decrementing the spaces
+# This of decrementing the spaces
 spaces = tree_height - 1
 
 hashes = 1

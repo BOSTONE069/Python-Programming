@@ -1,7 +1,7 @@
 print("Hello, world")
 name = input("What is your name: ")
 
-#Remove whitespace from string and capitalize users name
+# Remove whitespace from string and capitalize users name
 name = name.strip().title()
 
 print("Hello, " + name)
