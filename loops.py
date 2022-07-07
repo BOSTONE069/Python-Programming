@@ -20,3 +20,6 @@ while True:
 
 for _ in range(n):
     print("CS50")
+
+for i in range(1, 4):
+    print(i, end=" ")
