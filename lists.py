@@ -9,15 +9,14 @@ for student in students:
 print(f"The student number three is {students[2]}")
 
 for i in range(len(students)):
-
     print(students[i])
 
-    print(i+1, students[i])
+    print(i + 1, students[i])
 
 for i in students:
     print("{} : {}".format(students.index(i), i))
 
-#This is for adding elements into the list
+# This is for adding elements into the list
 students.append("Ochieng")
 
 for i in students:
