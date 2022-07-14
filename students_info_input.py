@@ -1,5 +1,5 @@
-name = input("What is your name? ")
+name, country = input("What is your name? ").split()
 
 file = open("students.csv", "a")
-file.write(f"{name}\n")
+file.write(f"{name}, {country}\n")
 file.close()
