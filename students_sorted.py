@@ -12,4 +12,4 @@ def get_names(student):
 
 
 for student in sorted(students, key=get_names):
-    print(f"{student['name']} is in {student['country']}")
+    print(f"{student['name']} is from {student['country']}")
