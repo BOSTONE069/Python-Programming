@@ -1,6 +1,8 @@
-name = input("What is your name? ").strip()
-if "," in name:
-    last, first = name.split(", ")
-    name = f"{name} {last}"
+import re
 
+name = input("What is your name? ").strip()
+matches = re.search("^(.+), (.+)$", name)
+if matches:
+    last, first = matches.groups()
+    name = f"{first} {last}"
 print(f"Hello, {name}")
