@@ -1,17 +1,12 @@
 def main():
-    name = get_name()
-    house = get_house()
-    print(f"{name} from {house}")
+    name, country = get_student()
+    print(f"{name} from {country}")
 
 
-def get_name():
+def get_student():
     name = input("Enter your name: ")
-    return name
-
-
-def get_house():
-    house = input("Enter your house: ")
-    return house
+    country = input("Enter your country: ")
+    return name, country
 
 
 if __name__ == "__main__":
