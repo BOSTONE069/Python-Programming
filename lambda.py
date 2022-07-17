@@ -1,5 +1,5 @@
 from functools import reduce
-import  random
+import random
 
 
 def fahrenheit(T):

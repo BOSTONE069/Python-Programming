@@ -7,6 +7,7 @@ with open("students.csv") as file:
         students.append(student)
 
 
+# noinspection PyShadowingNames
 def get_names(student):
     return student["name"]
 
