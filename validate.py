@@ -1,4 +1,4 @@
-email = input("What is your email address? " ).strip()
+email = input("What is your email address? ").strip()
 
 if "@" in email:
     print("valid")
