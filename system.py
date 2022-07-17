@@ -1,4 +1,4 @@
-import system2
+import sys
 
 if len(sys.argv) < 2:
     sys.exit("There is no argument provided")
