@@ -7,10 +7,13 @@ class Student:
         self.name = name
         self.country = country
 
+    def __str__(self):
+        return f"{self.name} from {self.country}"
+
 
 def main():
     student = get_student()
-    print(f"{student.name} from {student.country}")
+    print(student)
 
 
 def get_student():
