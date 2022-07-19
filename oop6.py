@@ -10,13 +10,13 @@ class Student:
 
     @property
     def country(self):
-        return self.country
+        return self._country
 
     @country.setter
     def country(self, country):
         if country not in ["Kenya", "Uganda", "Tanzania", "Burundi", "Rwanda", "DRC"]:
             raise ValueError("Invalid country")
-        self.country = country
+        self._country = country
 
 
 def main():
