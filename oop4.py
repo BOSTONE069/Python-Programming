@@ -16,7 +16,7 @@ def main():
 def get_student():
     name = input("Enter the value of your name here: ")
     country = input("Enter the country: ")
-    return Student(name, country) 
+    return Student(name, country)
 
 
 if __name__ == "__main__":
