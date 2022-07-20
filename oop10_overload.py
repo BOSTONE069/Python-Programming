@@ -35,5 +35,6 @@ print(potter)
 wesley = Vault(25, 50, 100)
 print(wesley)
 
+# Adding the two Vault objects together and printing the result.
 total = potter + wesley
 print(total)
