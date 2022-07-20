@@ -2,13 +2,12 @@ import random
 
 
 class Name:
-    def __init__(self):
-        self.country = ["Kenya", "Uganda", "Tanzania", "Burundi", "Rwanda", "DRC"]
+    country = ["Kenya", "Uganda", "Tanzania", "Burundi", "Rwanda", "DRC"]
 
-    def sort(self, name):
-        country = random.choice(self.country)
+    @classmethod
+    def sort(cls, name):
+        country = random.choice(cls.country)
         print(name, "is in", "{}".format(country))
 
 
-my_name = Name()
-my_name.sort("Bostone")
+Name.sort("Bostone")
