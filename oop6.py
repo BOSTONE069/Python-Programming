@@ -11,6 +11,7 @@ class Student:
     like regular attributes
     :return: The name of the person.
     """
+
     @property
     def name(self):
         return self._name
@@ -19,6 +20,7 @@ class Student:
     The @name.setter decorator is used to define a setter function for the name attribute
      :param name: The name of the person
      """
+
     @name.setter
     def name(self, name):
         if not name:
@@ -33,12 +35,12 @@ class Student:
     The `@property` decorator allows us to define properties that we can then get and set like attributes
     :param country: The country the user is in
     """
+
     @country.setter
     def country(self, country):
         if country not in ["Kenya", "Uganda", "Tanzania", "Burundi", "Rwanda", "DRC"]:
             raise ValueError("Invalid country")
         self._country = country
-
 
 
 def main():
