@@ -23,3 +23,5 @@ for _ in range(n):
 
 for i in range(1, 4):
     print(i, end=" ")
+
+print("boss" * 4)
