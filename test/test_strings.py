@@ -11,3 +11,5 @@ def test_default():
 
 def test_argument():
     assert hello("Ochieng") == "hello, Ochieng"
+    for name in ["Kevin", "Victor", "Rhemney"]:
+        assert hello(name) == f"hello, {name}"
