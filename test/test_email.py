@@ -1,1 +1,3 @@
-from emailvalidate import
+from emailvalidate import emailvalidate
+
+assert
