@@ -15,3 +15,6 @@ for student in students:
 # Iterating through the set of countries and printing them out.
 for country in sorted(countries):
     print(country)
+
+for name in students:
+    print(name["name"])
