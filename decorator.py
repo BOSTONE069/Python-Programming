@@ -9,7 +9,7 @@ def announce(f):
 
 @announce
 def hello():
-    print("Hello, world")
+    print("Hello, Bostone")
 
 
 hello()
